@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/laravel5Test/resources/views/typebooks/create.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/resources/views/layouts/app.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/routes/api.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/resources/views/typebooks/edit.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/resources/views/about.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/resources/views/typebooks/index.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/app/Http/Controllers/SiteController.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/app/Http/Controllers/BooksController.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/resources/views/books/edit.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/resources/views/books/index.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/resources/views/books/create.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravel5Test/app/Http/Controllers/TypeBooksController.php</file>
+        </group>
+    </open-files>
+</project-private>
