@@ -36,4 +36,27 @@ class CustomersController extends Controller
         alert()->success('บันทึกข้อมูลเรียบร้อยแล้ว.', 'สำเร็จ!');
         return redirect()->action('CustomersController@index');
     }
+
+    public function edit($id) {
+        $customers = Customers::findOrFail($id);        
+
+        return view('customers.edit', [
+            'customers' => $customers
+        ]);
+    }
+
+    public function update(StoreCustomersRequest $request, $id) {
+
+        $customers = Customers::find($id);
+        $customers->update($request->all());
+        alert()->success('บันทึกข้อมูลเรียบร้อยแล้ว.', 'สำเร็จ!');
+        return redirect()->action('CustomersController@index');
+    }
+
+    public function destroy($id) {
+        // TypeBooks::find($id)->delete();
+        Customers::destroy($id);
+         alert()->success('ลบข้อมูลเรียบร้อยแล้ว.', 'สำเร็จ!');
+        return back();
+    }
 }
