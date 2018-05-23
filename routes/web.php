@@ -39,4 +39,7 @@ Route::put('typebooks/edit/{id}','TypeBooksController@update');
 /* Books */
 Route::resource('books','BooksController');
 
+/* Customer */
+Route::resource('customers','CustomersController');
+
 Route::get('/home', 'HomeController@index')->name('home');
