@@ -57,10 +57,18 @@
                             <li><a href="{{ route('login') }}"><i class="fa fa-sign-in"></i> Login</a></li>
                             <li><a href="{{ route('register') }}"><i class="fa fa-key"></i> Register</a></li>
                             @else
+                            <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
+                                            <i class="fa fa-edit"></i> Master <span class="caret"></span>
+                                        </a>
+                            <ul class="dropdown-menu">
+                           
                             <li><a href="{{ url('/typebooks') }}"><i class="fa fa-book"></i> TypeBook</a></li>
                             <li><a href="{{ url('/books') }}"><i class="fa fa-book"></i> Book</a></li>
-                            <li><a href="{{ url('/customers') }}"><i class="fa fa-users"></i> Customers</a></li>
-                            <li><a href="{{ url('/about')}}"><i class="fa fa-edit"></i> About</a></li>
+                            <li><a href="{{ url('/customers') }}"><i class="fa fa-users"></i> Customers</a></li>                            
+                            </ul>
+                            </li>
+                            <li><a href="{{ url('/about')}}"><i class="fa fa-question-circle"></i> About</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
                                     <i class="fa fa-user-circle"></i> {{ Auth::user()->name }} <span class="caret"></span>

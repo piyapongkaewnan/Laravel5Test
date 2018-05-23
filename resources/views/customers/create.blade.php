@@ -46,13 +46,11 @@
                             {!! Form::text('cust_phone', null, ['class' => 'form-control','placeholder' => 'เบอร์โทรลูกค้า']) !!}
                         </div>
                     </div>
-
-                    <div class="form-group">
-                        <div class="col-sm-10">                                
+                    <div class="col-xs-8">
+                    <div class="form-group">                                                      
                             {!! Form::submit('บันทึก',  ['class' => 'btn btn-primary']) !!}
-                            <?= link_to('customers', $title = ' กลับ', ['class' => 'btn btn-warning fa fa-back'], $secure = null); ?>
-                        </div>
-
+                            <?= link_to('customers', $title = ' กลับ', ['class' => 'btn btn-warning fa fa-back'], $secure = null); ?>                        
+                    </div>
                     </div>
                     {!! Form::close() !!}
                 </div>
