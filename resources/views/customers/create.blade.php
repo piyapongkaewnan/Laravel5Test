@@ -18,14 +18,14 @@
                     {!! Form::open(array('url' => 'customers')) !!}
                     <div class="col-xs-8">
                         <div class="form-group">
-                            {!! Form::label('cust_name','ชื่อลูกค้า') !!}
-                            {!! Form::text('cust_name', null, ['class' => 'form-control','placeholder' => 'ชื่อลูกค้า']) !!}
+                            {!! Form::label('cust_name','* ชื่อลูกค้า') !!}
+                            {!! Form::text('cust_name', null, ['class' => 'form-control','placeholder' => 'ชื่อลูกค้า','required']) !!}
                         </div>
                     </div>
                     <div class="col-xs-8">
                         <div class="form-group">
-                            {!! Form::label('cust_email','E-mail') !!}
-                            {!! Form::email('cust_email', null, ['class' => 'form-control','placeholder' => 'E-Mail ลูกค้า']) !!}
+                            {!! Form::label('cust_email','* E-mail') !!}
+                            {!! Form::email('cust_email', null, ['class' => 'form-control','placeholder' => 'E-Mail ลูกค้า','required']) !!}
                         </div>
                     </div>
                     <div class="col-xs-8">
@@ -42,8 +42,8 @@
                     </div>
                     <div class="col-xs-8">
                         <div class="form-group">
-                            {!! Form::label('cust_phone','เบอร์โทรลูกค้า') !!}
-                            {!! Form::text('cust_phone', null, ['class' => 'form-control','placeholder' => 'เบอร์โทรลูกค้า']) !!}
+                            {!! Form::label('cust_phone','* เบอร์โทรลูกค้า') !!}
+                            {!! Form::text('cust_phone', null, ['class' => 'form-control','placeholder' => 'เบอร์โทรลูกค้า','required']) !!}
                         </div>
                     </div>
                     <div class="col-xs-8">

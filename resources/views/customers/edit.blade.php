@@ -18,13 +18,13 @@
                     {!! Form::model($customers, array('url' => 'customers/' . $customers->id , 'method' => 'put')) !!}
                     <div class="col-xs-8">
                         <div class="form-group">
-                            {!! Form::label('cust_name','ชื่อลูกค้า') !!}
+                            {!! Form::label('cust_name','* ชื่อลูกค้า') !!}
                             {!! Form::text('cust_name', null, ['class' => 'form-control','placeholder' => 'ชื่อลูกค้า']) !!}
                         </div>
                     </div>
                     <div class="col-xs-8">
                         <div class="form-group">
-                            {!! Form::label('cust_email','E-mail') !!}
+                            {!! Form::label('cust_email','* E-mail') !!}
                             {!! Form::email('cust_email', null, ['class' => 'form-control','placeholder' => 'E-Mail ลูกค้า']) !!}
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-xs-8">
                         <div class="form-group">
-                            {!! Form::label('cust_phone','เบอร์โทรลูกค้า') !!}
+                            {!! Form::label('cust_phone','* เบอร์โทรลูกค้า') !!}
                             {!! Form::text('cust_phone', null, ['class' => 'form-control','placeholder' => 'เบอร์โทรลูกค้า']) !!}
                         </div>
                     </div>
