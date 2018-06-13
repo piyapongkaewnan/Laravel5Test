@@ -45,7 +45,7 @@
                     <div class="col-xs-12">
                             <div class="form-group">                                                      
                                     {!! Form::submit('บันทึก',  ['class' => 'btn btn-primary']) !!}
-                                    <?= link_to('customers', $title = ' กลับ', ['class' => 'btn btn-warning fa fa-back'], $secure = null); ?>                        
+                                    <?= link_to('books', $title = ' กลับ', ['class' => 'btn btn-warning fa fa-back'], $secure = null); ?>                        
                             </div>
                     </div>
                     {!! Form::close() !!}

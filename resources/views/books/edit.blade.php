@@ -43,12 +43,12 @@
                                                 <img src="{{ asset('images/'.$book->image) }}" class="img-thumbnail">
                                             </div>
                                         </div>-->
-                    <div class="col-xs-8">
-                            <div class="form-group">                                                      
-                                    {!! Form::submit('บันทึก',  ['class' => 'btn btn-primary']) !!}
-                                    <?= link_to('customers', $title = ' กลับ', ['class' => 'btn btn-warning fa fa-back'], $secure = null); ?>                        
-                            </div>
-                    </div>
+                            <div class="col-xs-12">
+                                <div class="form-group">                                                      
+                                        {!! Form::submit('บันทึก',  ['class' => 'btn btn-primary']) !!}
+                                        <?= link_to('books', $title = ' กลับ', ['class' => 'btn btn-warning fa fa-back'], $secure = null); ?>                        
+                                </div>
+                        </div>
                     {!! Form::close() !!}
                 </div>
             </div>

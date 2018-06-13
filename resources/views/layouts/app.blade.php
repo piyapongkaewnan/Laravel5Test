@@ -18,8 +18,6 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet"> 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js" type="text/javascript"></script>        
 
-
-
     </head>
     <body>
         <div id="app">
@@ -44,7 +42,6 @@
                     <div class="collapse navbar-collapse" id="app-navbar-collapse">
                         <!-- Left Side Of Navbar -->
                         <ul class="nav navbar-nav">
-
 
                         </ul>
 
@@ -77,8 +74,7 @@
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a href="{{ route('logout') }}"
-                                           onclick="event.preventDefault();
-    document.getElementById('logout-form').submit();">
+                                           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                             <i class="fa fa-sign-out"></i> Logout
                                         </a>
 
